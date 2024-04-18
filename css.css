@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+  
+:root {
+      --cor0: #35424a;
+      --cor1: rgb(81, 110, 255);
+      --cor2: #FFFFFF;
+      --cor3: #CCCCCC;
+      --cor4: #000000;
+}
+
+header{
+    width: 100%; 
+    background-color: rgb(66, 92, 219);
+    display:flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px 0;
+    
+    
+}
+
+
+body {
+    background-color: #dfdfdf;
+    text-align: justify;
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.9px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item {
+    padding-right: 50%;
+    padding-left: 10px;
+}
+
+.logo-imagem{
+   
+   margin-left: 15%;
+}
+
+.container-logo{
+    display: flex;
+
+}
+
+.menu li{                         /* texto 'sobre nos' e 'p inicial'*/
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+.menu li a{
+    font-family: 'Arial';
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 11px;
+    border-radius: 18px;
+}
+
+.menu li a:hover{
+    background-color:rgb(95, 117, 218)
+}
+
+
+.container {
+    width: 70%;
+    margin: 50px auto;
+    background-color:  #ffffff;
+    padding: 50px 50px;            /*  preenchimento dentro */
+    border-radius: 10px;
+}
+
+/* .Introdução{ 
+    padding: 100px;
+    width: 70%;
+} */
+
+/* .vagas, .regiões, .Noticias, .cadastro{
+    padding: 40px 100px;
+    width: 45%;
+    
+} */
+
+.linha{                                              /*   linha e linha 2 são as linhas embaixo dos titulos */
+    width: 100%;
+    height: 2px;
+    border-radius: 25px;
+    background-color: black;
+}
+
+.linha2{
+    width: 15%;
+    height: 7px;
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+    background-color: black;
+}
+
+
+
+
+.agrupamento{
+    display:flex;
+    padding: 30px 0;   
+}
+
+.agrupamento:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.d{
+    padding-left: 10px;
+}
+
+.links {
+    padding: 60px 0;
+}
+
+/* texto onclick: */
+a {
+    text-decoration: none;
+}
+
+/* Estilo para definir a cor dos links */
+a:link, a:visited, a:hover, a:active {
+    color: black; 
+}
+
+
+:root {
+    --cor0: #35424a;
+    --cor1: rgb(81, 110, 255);
+    --cor2: #FFFFFF;
+    --cor3: #CCCCCC;
+    --cor4: #000000;
+}
+footer {
+    background: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: center;
+}
+

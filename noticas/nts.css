@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+header{
+    width: 100%; 
+    background-color: rgb(66, 92, 219);
+    display:flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px 0;
+    
+    
+}
+
+.logo-imagem{
+   
+   margin-left: 15%;
+}
+
+.container-logo{
+    display: flex;
+    /* align-items: center; */
+}
+
+.menu li{                         /* texto 'sobre nos' e 'p inicial'*/
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+.menu li a{
+    font-family: 'Arial';
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 11px;
+    border-radius: 18px;
+}
+
+.menu li a:hover{
+    background-color:rgb(95, 117, 218)
+}
+
+body {
+    background-color: #dfdfdf;
+    text-align: justify;
+}
+.container {
+    width: 70%;
+    margin: 50px auto;
+    background-color:  #ffffff;
+    padding: 50px 50px;            /*  preenchimento dentro */
+    border-radius: 10px;
+}
+h1 {font: optional;
+    font-size:xx-large;
+    color: #333;
+    text-align:left;
+    margin: 55px;
+}
+h3{
+    font: optional;
+    font-size:medium;
+    color: grey;
+    text-align: justify;
+    margin: 50px;
+}
+img{
+    margin: 0 5%
+     ;
+}
+h2{font: optional;
+    font-size:xx-large;
+    color: #333;
+    text-align:left;
+    margin: 55px;
+
+}
+.agrupamento2{
+    display: flex;
+    padding: 15px 0;
+}
+
+:root {
+    --cor0: #35424a;
+    --cor1: rgb(81, 110, 255);
+    --cor2: #FFFFFF;
+    --cor3: #CCCCCC;
+    --cor4: #000000;
+}
+footer {
+    background: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: center;
+}

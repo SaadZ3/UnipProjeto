@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+  
+:root {
+    --cor0: #35424a;
+    --cor1: rgb(81, 110, 255);
+    --cor2: #FFFFFF;
+    --cor3: #CCCCCC;
+    --cor4: #000000;
+}
+footer {
+    background: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: center;
+}
+
+
+header{
+    width: 100%; 
+    background-color: rgb(66, 92, 219);
+    display:flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px 0;
+    
+    
+}
+
+.logo-imagem{
+   
+   margin-left: 15%;
+}
+
+.container-logo{
+    display: flex;
+    /* align-items: center; */
+}
+
+.menu li{                         /* texto 'sobre nos' e 'p inicial'*/
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+.menu li a{
+    font-family: 'Arial';
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 11px;
+    border-radius: 18px;
+}
+.menu li a:hover{
+    background-color:rgb(95, 117, 218)
+}
+
+
+.container {
+    width: 70%;
+    margin: 50px auto;
+    background-color:  #ffffff;
+    padding: 100px 100px;            /*  preenchimento dentro */
+    border-radius: 10px;
+}
+
+body {
+    background-color: #dfdfdf;
+    text-align: justify;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linha{                                              /*   linha e linha 2 são as linhas embaixo dos titulos */
+    width: 100%;
+    height: 2px;
+    border-radius: 25px;
+    background-color: black;
+}
+.linha2{
+    width: 15%;
+    height: 7px;
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+    background-color: black;
+}
+.agrupamento{
+    display:flex;
+    padding: 10px 0;   
+}
+.agrupamento2 {
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: rgba(1, 47, 116, 0.87);
+}
+a:hover {
+    color: #5e6dfa;
+}
+span {
+    padding-left: 5%;
+    color: #030352;
+}
+span:hover{
+    color: #424fca;
+    cursor: pointer;
+}
+
+
+.sumario {
+    border: 1px solid #ccc;
+    width: 45%;
+    padding: 10px;
+    margin: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+}
+li {
+    font-size: 23px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.4px;
+}
+
+.topicos {
+    margin: 56px 0;
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.9px;
+}
